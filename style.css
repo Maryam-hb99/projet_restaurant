@@ -1,0 +1,111 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 70px; /* Adjust this value if needed depending on the navbar height */
+    background-color: rgb(229,226,217 )
+    
+}
+
+.hero {
+    background-image: url('res/otto-bg-1.b5662ff7.jpeg'); /* Image de fond pour la section hero */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: black;
+}
+.hero h1{
+    font-style: normal;
+    font-size: 100;
+
+}
+.menu .card {
+    margin-bottom: 30px;
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+.navbar {
+    background-color: rgb(229,226,217 ); 
+    padding: 10px 0;
+    position: fixed; /* Make it fixed so it stays on top */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Keep it on top of other elements */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.nav-link {
+    padding: 10px 20px; /* Add padding for spacing */
+    border-radius: 5px; /* Optional: Rounded corners */
+    margin: 0 5px; /* Add some space between the links */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+.nav-link:hover {
+    background-color:#EFEFE8; /* Change background on hover */
+}
+
+.custom-section {
+    padding-top: 2rem; /* pt-8 */
+    padding-bottom: 6rem; /* pb-24 */
+    padding-left: 2rem; /* px-8 */
+    padding-right: 2rem; /* px-8 */
+    display: flex; /* flex */
+    flex-direction: column; /* flex-col */
+    gap: 2rem; /* gap-8 */
+    font-size: 1.125rem; /* text-lg */
+    line-height: 1.75rem;
+    text-align: center; /* text-center */
+    margin-left: auto; /* mx-auto */
+    margin-right: auto; /* mx-auto */
+    font-style: normal;
+    font-weight: 100;
+}
+/* For large screens */
+@media (min-width: 992px) {
+    .custom-section {
+        padding-left: 0; /* lg:px-0 */
+        padding-right: 0; /* lg:px-0 */
+        width: 66.6667%; /* lg:w-2/3 */
+    }
+}
+.custom-btn {
+    background-color: rgb(161 ,154, 136 ); /* Custom color, e.g., Tomato */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+}
+
+.custom-btn:hover {
+    background-color: rgb(228, 222, 205)    ; /* Darker color for hover effect */
+    color: white;
+}
+.visit-us .card {
+    border: none; /* Remove card borders */
+    overflow: hidden;
+}
+
+.visit-us .card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.bg-color {
+    background-color: #EFEFE8; /* Light beige color */
+    border:none;
+}
+
+/* Social Media Icons in Footer */
+.social-icons a {
+    color: #fff; /* Icon color */
+    font-size: 1rem; /* Icon size */
+    margin: 0 10px; /* Spacing between icons */
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #f1c40f; /* Change color on hover */
+}
+
